@@ -20,6 +20,14 @@ function App() {
           <ul>
             <li>
               <a
+                href="https://github.com/50w/animal-crossing-awesome-list/issues/new?assignees=NickLewanowicz&labels=&template=add-an-awesome-to-the-list.md&title=Add+App%3A+"
+                target="_blank"
+              >
+                Add item!↗
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://www.github.com/50w/animal-crossing-nh-awesome-list"
                 target="_blank"
               >
@@ -44,9 +52,7 @@ function App() {
         </section>
         <hr />
       </header>
-      <Grid
-          apps={apps}
-        />
+      <Grid apps={apps} />
       <section style={{ padding: "2rem" }}>{renderContributors()}</section>
     </div>
   );

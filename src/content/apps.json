@@ -4,5 +4,23 @@
     "link": "https://turnipprophet.io/",
     "description": "Price calculator/predictor for Turnip prices",
     "img": "https://user-images.githubusercontent.com/15663269/81110778-0411fa80-8eea-11ea-9fbd-a69a0836d217.png"
+  },
+  {
+    "title": "Turnip Exchange",
+    "link": "https://turnip.exchange/",
+    "description": "This is the Turnip Exchange! A easy way to share your Dodo Code without having 100 people try and join all at once.",
+    "img": "https://user-images.githubusercontent.com/15663269/81118858-a389ba00-8ef7-11ea-8921-a60d9917d1d4.png"
+  },
+  {
+    "title": "Nook Market",
+    "link": "https://nook.market/",
+    "description": "Buy and sell your favorite Animal Crossing stuff!",
+    "img": "https://user-images.githubusercontent.com/15663269/81119061-08451480-8ef8-11ea-99ed-36d543bbc860.png"
+  },
+  {
+    "title": "Happy Island Designer",
+    "link": "https://eugeneration.github.io/HappyIslandDesigner/",
+    "description": "A web tool that lets you mock your own island!",
+    "img": "https://github.com/eugeneration/HappyIslandDesigner/raw/master/thumbnail.png"
   }
 ]
