@@ -3,62 +3,25 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import { Grid, Founder } from "./components";
-import { Person } from "./content/types";
-import { getRecommendationByFounder } from "./content/data";
+import { App as AppType } from "./content/types";
+import { getApps } from "./content/adapter";
 
 import "./App.css";
 import "./mvp.css";
 
 function App() {
-  const [selected, setSelected] = useState<Person | undefined>();
+  const apps = getApps();
 
-  const founders = getRecommendationByFounder();
-  const readmePath = require("../Readme.md");
-  console.log(readmePath)
-  fetch(readmePath)
-    .then(response => {
-      return response.text()
-    })
-    .then(text => {
-      console.log(text)
-    })
-  const contributors = [
-    { name: "Nick", url: "https://www.github.com/nicklewanowicz" },
-    { name: "Connor", url: "https://www.github.com/foopert" },
-    { name: "50w", url: "https://www.github.com/50w" },
-  ];
-  
-  function select(founder: Person | undefined) {
-    setSelected(founder)
-    window.scrollTo(0, 0)
-  }
 
   return (
     <div>
-      {renderHeader(selected)}
-      {selected && (
-        <Founder founder={selected} unselect={() => select(undefined)} />
-      )}
-      {selected && <section><h1>View more recommendations:</h1></section>}
-        <Grid
-          founders={founders}
-          selectFounder={(founder: Person) => select(founder)}
-        />
-      <section style={{ padding: "2rem" }}>
-        {renderContributors(contributors)}
-      </section>
-    </div>
-  );
-
-  function renderHeader(selected: Person | undefined) {
-    return (
-      <header>
+       <header>
         <nav>
-          <h1>FounderShelf</h1>
+          <h1>Animal Crossing Awesome List</h1>
           <ul>
             <li>
               <a
-                href="https://www.github.com/50w/foundershelf"
+                href="https://www.github.com/50w/animal-crossing-nh-awesome-list"
                 target="_blank"
               >
                 GitHub ↗
@@ -66,8 +29,6 @@ function App() {
             </li>
           </ul>
         </nav>
-        {!selected && (
-          <>
             <section>
               <aside style={{ width: "auto" }}>
                 <h2>What is Founder Shelfspace?</h2>
@@ -83,13 +44,25 @@ function App() {
               </aside>
             </section>
             <hr />
-          </>
-        )}
       </header>
-    );
-  }
+      {/* <Founder founder={selected} unselect={() => select(undefined)} /> */}
 
-  function renderContributors(contributors: { name: string; url: string }[]) {
+     <section><h1>View more recommendations:</h1></section>
+        {/* <Grid
+          founders={founders}
+          selectFounder={(founder: Person) => select(founder)}
+        /> */}
+      <section style={{ padding: "2rem" }}>
+        {renderContributors()}
+      </section>
+    </div>
+  );
+
+  function renderContributors() {
+    const contributors = [
+      { name: "Nick", url: "https://www.github.com/nicklewanowicz" },
+      { name: "50w", url: "https://www.github.com/50w" },
+    ];
     return (
       <p>
         Made with ❤️ by
