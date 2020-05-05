@@ -9,7 +9,6 @@ You can simply use the below tables to find awesome animal crossing apps or use 
 |[ac-nh-turnip-prices](https://turnipprophet.io/)|Price calculator/predictor for Turnip prices|<img height=100 src='https://user-images.githubusercontent.com/15663269/81110778-0411fa80-8eea-11ea-9fbd-a69a0836d217.png'/>|
 
 
-
 ## Want to add an awesome? 
 There are 2 ways to add an app to the Awesome list:
 
