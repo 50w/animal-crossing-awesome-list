@@ -22,5 +22,11 @@
     "link": "https://eugeneration.github.io/HappyIslandDesigner/",
     "description": "A web tool that lets you mock your own island!",
     "img": "https://github.com/eugeneration/HappyIslandDesigner/raw/master/thumbnail.png"
+  },
+  {
+    "title": "Nook Exchange",
+    "link": "https://nook.exchange/",
+    "description": "Your friendly Animal Crossing marketplace!",
+    "img": "https://user-images.githubusercontent.com/15663269/81120606-147ea100-8efb-11ea-8ee4-de31579b1bd0.png"
   }
 ]
