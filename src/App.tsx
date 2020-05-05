@@ -12,10 +12,9 @@ import "./mvp.css";
 function App() {
   const apps = getApps();
 
-
   return (
     <div>
-       <header>
+      <header>
         <nav>
           <h1>Animal Crossing Awesome List</h1>
           <ul>
@@ -29,32 +28,26 @@ function App() {
             </li>
           </ul>
         </nav>
-            <section>
-              <aside style={{ width: "auto" }}>
-                <h2>What is Founder Shelfspace?</h2>
-                <div style={{ flexDirection: "row" }}>
-                  <img height={100} src="reading.svg" />
-                  <p>
-                    What does the bookshelf of the worlds most successful
-                    founders, entrepreneurs, and investors look like? Get
-                    context on how they think and browse the growing library of
-                    books they recommend.
-                  </p>
-                </div>
-              </aside>
-            </section>
-            <hr />
+        <section>
+          <aside style={{ width: "auto" }}>
+            <h2>What is this Awesome List?</h2>
+            <div style={{ flexDirection: "row" }}>
+              <img height={100} src="appreciation.svg" />
+              <p>
+                I think the suite of apps and services the Animal Crossing
+                community has created are fantastic and deserve more visibility.
+                This website exists to spotlight all the fantastic things people
+                have made for the Animal Crossing community!
+              </p>
+            </div>
+          </aside>
+        </section>
+        <hr />
       </header>
-      {/* <Founder founder={selected} unselect={() => select(undefined)} /> */}
-
-     <section><h1>View more recommendations:</h1></section>
-        {/* <Grid
-          founders={founders}
-          selectFounder={(founder: Person) => select(founder)}
-        /> */}
-      <section style={{ padding: "2rem" }}>
-        {renderContributors()}
-      </section>
+      <Grid
+          apps={apps}
+        />
+      <section style={{ padding: "2rem" }}>{renderContributors()}</section>
     </div>
   );
 
