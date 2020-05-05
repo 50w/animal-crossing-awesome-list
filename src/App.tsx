@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import { Grid, Founder } from "./components";
+import { Grid } from "./components";
 import { App as AppType } from "./content/types";
 import { getApps } from "./content/adapter";
 
