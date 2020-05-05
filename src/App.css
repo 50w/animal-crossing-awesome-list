@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.header {
+  margin: 0;
+  padding: 1rem 0 0 1rem;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .App {
+    margin: 0 5rem 0 5rem;
+    max-width: 1500px;
+    margin: auto;
+  }
+
+}
+
+.element {
+  top: 0;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+  width: 100%;
+  min-height: 7.5rem;
+  text-align: center;
+  background-image: url(https://bitbucket-marketing-cdn.atlassian.com/dam/jcr:cd01b96d-381e-49ab-a487-c7d1df92cf59/atlassian%20wave%20adg30524.svg?cdnVersion=jh);
+  background-position: center top;
+  background-size: 1440px 126px;
+  background-repeat: repeat-x;
+}
