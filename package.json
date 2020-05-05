@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "node updatePhone.js && npm run build",
-    "deploy": "node updatePhone.js && gh-pages -d build"
+    "deploy": "node updatePhone.js && gh-pages -d build",
+    "nook-install": "node updatePhone.js"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -44,7 +44,7 @@ async function saveApps(appArr) {
         if (err) {
             console.log(err);
         } else {
-            console.log('Success!')
+            console.log('Successfully installed Apps')
         }
     });
 }

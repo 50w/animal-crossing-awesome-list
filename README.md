@@ -10,10 +10,9 @@ You can simply use the below tables to find awesome animal crossing apps or use 
 
 
 ## Want to add an awesome? 
-There are 2 ways to add an app to the Awesome list:
+[Click here](https://github.com/50w/animal-crossing-awesome-list/issues/new?assignees=NickLewanowicz&labels=&template=add-an-awesome-to-the-list.md&title=Add+App%3A+) to make an issue, fill out the template, and an admin will add it to the list as soon as possible! 
 
-**Option A**: [Click here]() to make an issue, fill out the template, and an admin will add it to the list in < 48 hours. 
-
+More tech savvy?
 **Option B**: 
 
     Step 1. Fork the repo
@@ -23,6 +22,7 @@ There are 2 ways to add an app to the Awesome list:
     - Brief app description 
     - App Logo/Screenshot
     
-    Step 3. Submit a PR with these changes to be approved by a repo owner
+    Step 3. Run `yarn nook-install`
+    Step 4. Submit a PR with these changes to be approved by a repo owner
 
 
