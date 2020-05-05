@@ -28,7 +28,7 @@ function App() {
             </li>
             <li>
               <a
-                href="https://www.github.com/50w/animal-crossing-nh-awesome-list"
+                href="https://github.com/50w/animal-crossing-awesome-list"
                 target="_blank"
               >
                 GitHub ↗
