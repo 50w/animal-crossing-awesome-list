@@ -20,7 +20,7 @@ function App() {
           <ul>
             <li>
               <a
-                href="https://github.com/50w/animal-crossing-awesome-list/issues/new?assignees=NickLewanowicz&labels=&template=add-an-awesome-to-the-list.md&title=Add+App%3A+"
+                href="https://forms.gle/Sm5WUZP75rsQwv8z5"
                 target="_blank"
               >
                 Add item!↗

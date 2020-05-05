@@ -14,7 +14,7 @@ You can simply use the below tables to find awesome animal crossing apps or use 
 
 
 ## Want to add an awesome? 
-[Click here](https://github.com/50w/animal-crossing-awesome-list/issues/new?assignees=NickLewanowicz&labels=&template=add-an-awesome-to-the-list.md&title=Add+App%3A+) to make an issue, fill out the template, and an admin will add it to the list as soon as possible! 
+[Click here](https://forms.gle/Sm5WUZP75rsQwv8z5) to make an issue, fill out the template, and an admin will add it to the list as soon as possible! 
 
 More tech savvy?
 **Option B**: 
