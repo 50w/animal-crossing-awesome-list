@@ -19,12 +19,12 @@
     "typescript": "3.3.3333"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node updatePhone.js && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "node updatePhone.js && npm run build",
+    "deploy": "node updatePhone.js && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +35,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://nookphone.50w.co"
+  "homepage": "https://nooklist.50w.co"
 }
