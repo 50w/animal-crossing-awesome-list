@@ -11,7 +11,7 @@ You can simply use the below tables to find awesome animal crossing apps or use 
 |[Nook Market](https://nook.market/)|Buy and sell your favorite Animal Crossing stuff!|<img height=100 src='https://user-images.githubusercontent.com/15663269/81119061-08451480-8ef8-11ea-99ed-36d543bbc860.png'/>|
 |[Happy Island Designer](https://eugeneration.github.io/HappyIslandDesigner/)|A web tool that lets you mock your own island!|<img height=100 src='https://github.com/eugeneration/HappyIslandDesigner/raw/master/thumbnail.png'/>|
 |[Nook Exchange](https://nook.exchange/)|Your friendly Animal Crossing marketplace!|<img height=100 src='https://user-images.githubusercontent.com/15663269/81120606-147ea100-8efb-11ea-8ee4-de31579b1bd0.png'/>|
-|[AC Helper (iOS)](https://apps.apple.com/us/app/ac-helper/id1508764244?ls=1)|AC Helper is a companion app for Animal Crossing: New Horizons. You'll get access to all the information you need to catch all the bugs, fishes and fossils of the game.|<img height=100 src='https://user-images.githubusercontent.com/15663269/82483332-36a12300-9aa6-11ea-8165-d11f7f2d260b.png'/>|
+|[AC Helper {iOS}](https://apps.apple.com/us/app/ac-helper/id1508764244?ls=1)|AC Helper is a companion app for Animal Crossing: New Horizons. You'll get access to all the information you need to catch all the bugs, fishes and fossils of the game.|<img height=100 src='https://user-images.githubusercontent.com/15663269/82483332-36a12300-9aa6-11ea-8165-d11f7f2d260b.png'/>|
 
 
 
